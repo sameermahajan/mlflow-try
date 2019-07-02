@@ -1,5 +1,6 @@
 name: try
 
 entry_points:
+  parameters:
   main:
 command: "python try.py"
