@@ -1,4 +1,4 @@
-name: try
+name: test
 channels:
   - defaults
 dependencies:
