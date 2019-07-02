@@ -4,5 +4,6 @@ conda_env: conda.yaml
 
 entry_points:
   parameters:
+    first: {type: int, default: 1}
   main:
 command: "python try.py"
