@@ -1,4 +1,4 @@
-name: try
+name: test
 
 conda_env: conda.yaml
 
@@ -6,4 +6,4 @@ entry_points:
   main:
     parameters:
       first: {type: int, defualt: 1}
-    command: "python try.py"
+    command: "python test.py"
