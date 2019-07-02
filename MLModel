@@ -1,0 +1,5 @@
+name: try
+
+entry_points:
+  main:
+  command: "python try.py"
