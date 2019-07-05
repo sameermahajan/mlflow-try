@@ -3,7 +3,7 @@ name: test
 conda_env: conda.yaml
 
 entry_points:
-  parameters:
-    param1: {type: int, default: 1}
   main:
-command: "python test.py"
+    parameters:
+      param1: {type: int, default: 1}
+    command: "python test.py"
